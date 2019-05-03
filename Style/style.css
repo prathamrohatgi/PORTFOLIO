@@ -3,9 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-@media only screen and(max-width:480px){
-  body{
-    max-width:100vw;
+@media only screen and(max-width:480px) {
+  body {
+    max-width: 100vw;
   }
 }
 .clearfix::after {
@@ -37,20 +37,20 @@ nav a:hover {
   background-color: gray;
   transition: background-color 0.85s;
 }
-@media only screen and (min-width: 481px)and (max-width:1020px) {
+@media only screen and (min-width: 481px) and (max-width: 1020px) {
   nav ul {
     margin: 0;
     width: 100vw;
   }
-  .container{
-    padding:100px 20px;
+  .container {
+    padding: 100px 20px;
   }
 }
-@media only screen and (max-width:480px){
- nav ul{
-   margin:0;
-   width:100vw;
- }
+@media only screen and (max-width: 480px) {
+  nav ul {
+    margin: 0;
+    width: 100vw;
+  }
 }
 .container {
   padding: 100px 50px;
@@ -58,12 +58,12 @@ nav a:hover {
 .hero {
   padding: 150px 0;
   position: relative;
-  min-height:100vh;
+  min-height: 100vh;
 }
 .hero-inner {
   position: absolute;
   top: 50%;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
 }
 .col-34 {
   float: left;
@@ -88,78 +88,79 @@ nav a:hover {
 @media only screen and (min-width: 481px) and (max-width: 1020px) {
   .hero {
     position: static;
-    padding:80px 0;
+    padding: 80px 0;
   }
   .hero-inner {
     position: static;
-    transform:none;
+    transform: none;
   }
-  .col-34,.col-66 {
+  .col-34,
+  .col-66 {
     float: none;
     width: 100%;
   }
   #about {
-    min-height:100vh;
+    min-height: 100vh;
   }
-  .container{
-      padding:50px 5px;
+  .container {
+    padding: 50px 5px;
   }
-  .col-66{
-      text-align:center;
+  .col-66 {
+    text-align: center;
   }
-  .work-content{
-    padding:12px 6px;
+  .work-content {
+    padding: 12px 6px;
   }
-  .end{
-    padding:20px 5px;
+  .end {
+    padding: 20px 5px;
   }
-
 }
-@media only screen and (max-width:480px){
-  .hero{
-    position:static;
-    padding:40px 0;
-    min-height:80vh;
+@media only screen and (max-width: 480px) {
+  .hero {
+    position: static;
+    padding: 40px 0;
+    min-height: 80vh;
   }
-  .hero-inner{
-    position:static;
-    transform:none;
+  .hero-inner {
+    position: static;
+    transform: none;
   }
-  .col-34,.col-66{
-    float:none;
-    width:100%;
-    text-align:center;
+  .col-34,
+  .col-66 {
+    float: none;
+    width: 100%;
+    text-align: center;
   }
-  .container{
-    padding:30px 5px;
+  .container {
+    padding: 30px 5px;
   }
-  .skills-content{
-    float:none;
-    width:100%;
-    }
+  .skills-content {
+    float: none;
+    width: 100%;
+  }
 }
 .btn {
   padding: 10px 25px;
   color: white;
   background-color: #2874a6;
-  margin-top:25px;
-  border:none;
+  margin-top: 25px;
+  border: none;
 }
 #skills {
   background-color: #2e2e2e;
-  box-shadow: 5px 5px 10px #2e2e2e;;
+  box-shadow: 5px 5px 10px #2e2e2e;
 }
 
 .text {
   text-align: center;
   padding: 15px;
-  color:white;
+  color: white;
 }
 .text p {
   padding-top: 20px;
 }
-.button p{
-  color:white;
+.button p {
+  color: white;
 }
 .row {
   padding: 100px 0;
@@ -168,13 +169,13 @@ nav a:hover {
   box-shadow: 2px 2px 3px gray;
   background-color: white;
   padding: 12px;
-  min-height:265px;
+  min-height: 300px;
 }
-.col-33-img{
-  text-align:center;
+.col-33-img {
+  text-align: center;
 }
-.col-33-img img{
-  max-width:100%;
+.col-33-img img {
+  max-width: 100%;
 }
 .col-33:hover {
   box-shadow: 4px 4px 10px gray;
@@ -188,24 +189,25 @@ button:hover {
   float: left;
   width: 33%;
 }
-@media only screen and (max-width:480px){
-  .skills-content{
-  min-width:100%;
-  float:none;
+@media only screen and (max-width: 480px) {
+  .skills-content {
+    width: 100%;
+    float: none;
   }
 }
 .work-content {
   padding: 12px;
-  float:left;
+  float: left;
   width: 33%;
 }
-@media only screen and(max-width:480px){
-  .work-content{
-    width:100%;
-    float:none;
+@media only screen and (max-width:480px) {
+  .work-content {
+    width: 100%;
+    float: none;
   }
 }
-.col-33 p,.col-33 h3 {
+.col-33 p,
+.col-33 h3 {
   text-align: center;
 }
 .col-33 i {
@@ -249,13 +251,14 @@ input {
   color: white;
   border: 1px solid white;
   margin-bottom: 12px;
-  width:49%;
+  width: 49%;
 }
-input [type="number"],input [type="text"] {
-  float:left;
+input [type="number"],
+input [type="text"] {
+  float: left;
 }
-input[type="email"]{
-  width:98%;
+input[type="email"] {
+  width: 98%;
 }
 textarea {
   padding: 6px 0 42px 0;
@@ -263,7 +266,7 @@ textarea {
   border: 1px solid white;
   font-size: 19px;
   color: white;
-  width:98%;
+  width: 98%;
 }
 input[type="submit"] {
   background-color: #3c9fc4;
@@ -278,17 +281,17 @@ input[type="reset"] {
   width: 50%;
   text-align: center;
 }
-@media only screen and (min-width:481px) and (max-width:1020px){
-  .form{
-    width:100%;
-    margin:0;
+@media only screen and (min-width: 481px) and (max-width: 1020px) {
+  .form {
+    width: 100%;
+    margin: 0;
   }
 }
-@media only screen and(max-width:480px){
-.form{
-  width:100%;
-  margin:0;
- }
+@media only screen and (max-width:480px) {
+  .form {
+    width: 100%;
+    margin: 0;
+  }
 }
 footer {
   background-color: #2f2f2f;
@@ -313,8 +316,8 @@ footer p:last-child {
   font-size: 32px;
   margin: 0 7px;
 }
-.icons i:hover{
-  transform:translateY(-10px);
-  transition:trasnsform 1s;
+.icons i:hover {
+  transform: translateY(-10px);
+  transition: trasnsform 1s;
   cursor: pointer;
 }
